@@ -6,25 +6,70 @@
     <title>The Fascinating World of Octopuses</title>
 </head>
 
-<body>
+<!-- Inline style in the body -->
+ <!-- Make the margin 0, clean sans serif like the screenshot, and ligth gray page background -->
+<body
+    style="
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f2f2f2
+        "
+    >
     <!-- Header Section -->
-    <div id="header">
+     <!-- blue header bar, white text, center header text, and space inside header -->
+    <div id="header"
+        style="
+            background-color: #0b6fd3;
+            color: white;
+            text-align: center;
+            padding: 30px;                      
+        "
+        
+    >
+    <!-- Removes default h1 margins and large title text -->
+        <h1
+            style="
+                margin: 0;
+                font-size: 36px;
+            "
+    >
+        <!-- Space below the heading and italic subtitle -->
         <h1>The Fascinating World of Octopuses</h1>
+         <p
+            style="
+                margin-top: 10px;
+                font-style: italic;
+            "
         <p>Welcome to this intriguing corner of the internet!</p>
     </div>
 
     <!-- Main Content -->
-    <div id="main-content">
+     <!-- Light background for content area and space around the text -->
+    <div id="main-content"
+        style="
+            background-color: #f7f7f7;
+            padding: 25px;
+        "
 
         <!-- Introduction -->
-        <h2>Introduction</h2>
+        <h2
+            style="
+                text-transform: uppercase;      /* Matches bold uppercase look */
+            "
+        >
+            Introduction</h2>
         <p>
             Octopuses are among the most fascinating creatures in the ocean.
             They are known for their intelligence and remarkable adaptability.
         </p>
 
         <!-- Amazing Facts -->
-        <h3>Amazing Facts</h3>
+        <h3
+            style="
+                text-transform: uppercase;      /* Uppercase section heading */
+            "
+        >
+        Amazing Facts</h3>
         <!-- Unordered list -->
         <ul>
             <li>They have three hearts.</li>
@@ -34,9 +79,14 @@
 
         <!-- Anatomy -->
         <h4>Anatomy</h4>
+        <!-- red highlight and emphasize key term -->
         <p>
             An octopus's anatomy is as unique as it is fascinating.
-            The <span class="important">mantle</span>, for example, helps in respiration and jet propulsion.
+            The <span class="important"style="
+                    color: red; 
+                    font-weight: bold;
+                "
+            >mantle</span>, for example, helps in respiration and jet propulsion.
         </p>
 
         <!-- Comparison with other Cephalopods -->
@@ -57,10 +107,25 @@
         </p>
 
         <!-- Fun Experiment: Octopus Quiz -->
-        <div id="quiz-section">
-
+         <!-- Light blue quiz box, subtle border, space insde the quiz box and space above the quiz -->
+        <div id="quiz-section"
+            style="
+                background-color: #e6f6ff;
+                border: 1px solid #cccccc;
+                padding: 20px;
+                margin-top: 30px;
+            "
+        
+        >
             <!-- Image -->
-            <img src="octopus-image.png" alt="Image of an octopus" width="100">
+             <!-- moves inage to the right, space between the image and text, and border -->
+            <img src="octopus-image.png" alt="Image of an octopus" width="100"
+                 style="
+                    float: right;
+                    margin-left: 15px;
+                    border: 3px solid purple;
+                "
+            >
 
             <h2>Octopus Quiz</h2>
             <form action="/submit-quiz" method="POST">
@@ -79,10 +144,25 @@
     </div> <!-- End of main-content -->
 
     <!-- Table -->
-    <div id="species-table">
+     <!-- space around the table section -->
+    <div id="species-table"
+        style="
+            padding: 25px;                     
+        "
+    >
         <h2>Common Octopus Species</h2>
-        <table border="1">
-            <tr>
+        <!-- white table background and clean table borders -->
+        <table border="1"
+            style="
+                background-color: white;   
+                border-collapse: collapse;   
+            "
+        >
+            <tr
+            style="
+                    background-color: #cccccc;  /* Gray header row */
+                "
+            >
                 <th>Species</th>
                 <th>Location</th>
                 <th>Size</th>
@@ -101,7 +181,14 @@
     </div>
 
     <!-- Footer -->
-    <div id="footer">
+     <!-- light gray footer, center footer text, space inside, and smaller footer text -->
+    <div id="footer"
+        style="
+            background-color: #dddddd; 
+            padding: 15px; 
+            font-size: 14px;  
+        "
+    >
         <p>
             &copy; 2023 The Fascinating World of Octopuses. All rights reserved.
             <!-- HTML entities for special characters -->
