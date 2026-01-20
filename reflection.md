@@ -1,0 +1,3 @@
+For project 3 octopus, I added inline CSS to the given HTML file to make the page look like the given screenshot. I did not change the structure of the html only adding styles. 
+
+I used colors, padding, borders, and text styling to try match the layout and design. The hardest part for me was matching the spacing and layout, but I fixed it by adjusting styles little by little and consistently checking the page as I went, it was a little time consuming for me but i got it. 
